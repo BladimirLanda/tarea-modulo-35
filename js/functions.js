@@ -6,6 +6,7 @@ const responseApi = {
         quieneres: 'Soy un ejemplo de un Bot con respuestas funcionales',
         link1: "Claro! Es el siguiente https://www.youtube.com/",
         amor: "No lo creo, campeón. Pero aquí tienes una página de apoyo https://www.lobossolitarios.com/",
+        fact: "Mujeres mentirosas nunca cambian, mejoran su estrategia",
 };
 
 const createSection = (response) => {
@@ -44,6 +45,9 @@ const createSection = (response) => {
    }
    else if (textContentOne == "ella me ama?") {
     answers.textContent = response.amor;
+   }
+   else if (textContentOne == "tírame un fact") {
+    answers.textContent = response.fact;
    }
    else {
     answers.textContent = "no te entiendo";
