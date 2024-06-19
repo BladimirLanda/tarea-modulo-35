@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 20px 0;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  background-color: black;
+  color: aliceblue;
+}
+.header h1 {
+  margin: 8px;
+}
+
+.main {
+  width: 100%;
+  margin: 5px 0;
+  padding: 2px 0;
+  text-align: center;
+}
+.main .main__search .main__inputs {
+  margin: 15px 0;
+}
+.main .main__search .main__inputs input {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  background-color: rgb(222, 222, 255);
+  border-radius: 5px;
+  border: 2px black solid;
+}
+.main .main__search .main__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.main .main__search .main__buttons button {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+}
+.main .main__bot {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.main .main__bot .block .question-user {
+  width: 80%;
+  background-color: aqua;
+  color: black;
+  border: 5px black solid;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.main .main__bot .block .answer-bot {
+  width: 80%;
+  background-color: antiquewhite;
+  color: black;
+  border: 5px black solid;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 0 10px;
+}/*# sourceMappingURL=style.css.map */
